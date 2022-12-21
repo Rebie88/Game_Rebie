@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="0dp"
+        app:srcCompat="@drawable/a" />
+
+    <Button
+        android:id="@+id/buttonActivity2"
+        android:layout_width="196dp"
+        android:layout_height="68dp"
+        android:paddingTop="10dp"
+        android:text="Play Dice Game" />
+
+    <Button
+        android:id="@+id/buttonToOpenActivity3"
+        android:layout_width="207dp"
+        android:layout_height="63dp"
+        android:paddingTop="10dp"
+        android:text="Deposit/withdraw from Account" />
+
+    <TextView
+        android:id="@+id/textViewToDisplayAccountBalance"
+        android:layout_width="280dp"
+        android:layout_height="109dp"
+        android:background="@color/teal_200"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:text="Your Acout Balance:"
+        android:textColor="#5E35B1"
+        android:textSize="14sp" />
+</LinearLayout>
